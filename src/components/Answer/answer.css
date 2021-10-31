@@ -1,0 +1,21 @@
+.container {
+  width: 50%;
+  margin: 17px auto;
+}
+
+h2 {
+  color: rgb(11, 11, 117);
+}
+
+li {
+  font-size: 19px;
+}
+
+.container button {
+  background-color: rgb(11, 11, 117);
+  color: white;
+  border: none;
+  height: 35px;
+  width: 100px;
+  border-radius: 5px;
+}

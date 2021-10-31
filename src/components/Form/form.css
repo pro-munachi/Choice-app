@@ -1,0 +1,81 @@
+.form {
+  width: 60%;
+  margin: auto;
+  padding-bottom: 19px;
+}
+
+.form h2 {
+  text-align: center;
+}
+
+.form .question {
+  margin: auto;
+  width: 450px;
+}
+
+.form .question input {
+  width: 100%;
+  margin: auto;
+  height: 35px;
+  border: 2px solid rgb(11, 11, 117);
+  border-radius: 5px;
+  padding-left: 7px;
+  outline: none;
+}
+
+.form .answer {
+  margin: auto;
+  width: 450px;
+}
+.form .answer h2 {
+  margin: 7px 0;
+}
+
+.form .answer input {
+  width: 100%;
+  margin: 13px 0;
+  height: 35px;
+  border: 2px solid rgb(11, 11, 117);
+  border-radius: 5px;
+  padding-left: 7px;
+  outline: none;
+}
+
+.form .button {
+  margin: 12px auto auto auto;
+  width: 450px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.form .button .option {
+  width: 120px;
+  height: 30px;
+  background: transparent;
+  border: 2px solid rgb(11, 11, 117);
+  border-top-left-radius: 10px;
+  font-size: 15px;
+}
+.form .button .answer1 {
+  width: 120px;
+  height: 30px;
+  background: transparent;
+  border: 2px solid rgb(11, 11, 117);
+  border-top-right-radius: 10px;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+}
+
+@media (max-width: 700px) {
+  .form .answer,
+  .form .button,
+  .form .question {
+    width: 100%;
+  }
+
+  .form {
+    width: 90%;
+  }
+}

@@ -1,0 +1,15 @@
+header {
+  height: 55px;
+  background-color: rgb(11, 11, 117);
+  overflow: hidden;
+}
+
+header p {
+  margin-top: 13px;
+  text-align: center;
+  color: white;
+  height: 100%;
+  width: 100%;
+  font-size: 17px;
+  font-weight: 600;
+}
