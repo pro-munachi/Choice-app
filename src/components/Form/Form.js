@@ -9,7 +9,7 @@ const Form = () => {
     { text: "", no: 3 },
   ]);
   const [question, setQuestion] = useState("");
-  const [click, setClick] = useState(3);
+  const [click, setClick] = useState(0);
 
   const handleChange = (index, event) => {
     const values = [...inputFields];
