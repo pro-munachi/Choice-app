@@ -1,6 +1,9 @@
 .container {
-  width: 50%;
-  margin: 17px auto;
+  width: 60%;
+  margin: 30px auto;
+  padding-bottom: 19px;
+  padding-top: 19px;
+  background-color: #3fb0ac;
 }
 
 h2 {
@@ -12,10 +15,69 @@ li {
 }
 
 .container button {
-  background-color: rgb(11, 11, 117);
+  background-color: #173e43;
   color: white;
   border: none;
   height: 35px;
-  width: 100px;
+  width: 150px;
   border-radius: 5px;
+  margin: 10px 0;
+}
+
+.but {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.ind {
+  width: 15%;
+  color: white;
+  margin-top: 20px;
+}
+
+.ul {
+  display: flex;
+  flex-direction: row;
+  margin: 10px auto;
+  width: 70%;
+  height: 60px;
+}
+
+.color {
+  color: red;
+}
+
+.blue {
+  color: #173e43;
+}
+
+h2 {
+  color: #173e43;
+}
+
+.me {
+  background-color: #fff;
+  width: 100%;
+  border-radius: 8px;
+  border: 2px solid #fae596;
+}
+
+.you {
+  background-color: #9fa8a3;
+  width: 100%;
+}
+
+@media (max-width: 800px) {
+  .container {
+    width: 90%;
+  }
+}
+@media (max-width: 650px) {
+  .ul,
+  .but {
+    width: 90%;
+  }
 }

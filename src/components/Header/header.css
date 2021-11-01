@@ -1,15 +1,19 @@
 header {
   height: 55px;
-  background-color: rgb(11, 11, 117);
+  background-color: #9fa8a3;
   overflow: hidden;
 }
 
 header p {
-  margin-top: 13px;
+  margin-top: 10px;
   text-align: center;
-  color: white;
+  color: #173e43;
   height: 100%;
   width: 100%;
-  font-size: 17px;
+  font-size: 23px;
   font-weight: 600;
+}
+
+.links {
+  text-decoration: none;
 }

@@ -1,11 +1,14 @@
 .form {
   width: 60%;
-  margin: auto;
+  margin: 30px auto;
   padding-bottom: 19px;
+  padding-top: 19px;
+  background-color: #3fb0ac;
 }
 
 .form h2 {
   text-align: center;
+  color: #173e43;
 }
 
 .form .question {
@@ -17,7 +20,7 @@
   width: 100%;
   margin: auto;
   height: 35px;
-  border: 2px solid rgb(11, 11, 117);
+  border: 2px solid #fae596;
   border-radius: 5px;
   padding-left: 7px;
   outline: none;
@@ -35,7 +38,7 @@
   width: 100%;
   margin: 13px 0;
   height: 35px;
-  border: 2px solid rgb(11, 11, 117);
+  border: 2px solid #fae596;
   border-radius: 5px;
   padding-left: 7px;
   outline: none;
@@ -52,20 +55,26 @@
 .form .button .option {
   width: 120px;
   height: 30px;
-  background: transparent;
-  border: 2px solid rgb(11, 11, 117);
+  background: #173e43;
+  border: none;
+  color: white;
   border-top-left-radius: 10px;
-  font-size: 15px;
+  font-size: 13px;
 }
 .form .button .answer1 {
   width: 120px;
   height: 30px;
-  background: transparent;
-  border: 2px solid rgb(11, 11, 117);
+  background: #173e43;
+  border: none;
   border-top-right-radius: 10px;
   text-decoration: none;
   text-align: center;
   color: black;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
 }
 
 @media (max-width: 700px) {
@@ -76,6 +85,13 @@
   }
 
   .form {
+    width: 90%;
+  }
+}
+@media (max-width: 800px) {
+  .form .answer input,
+  .form .question input,
+  .form .button {
     width: 90%;
   }
 }

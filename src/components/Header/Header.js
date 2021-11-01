@@ -1,12 +1,15 @@
-import React from "react";
-import "./header.css";
+import React from 'react'
+import { NavLink } from 'react-router-dom'
+import './header.css'
 
 const Header = () => {
   return (
     <header>
-      <p>Easy Decision Maker</p>
+      <NavLink to='/' className='links'>
+        <p>Easy Decision Maker</p>
+      </NavLink>
     </header>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header
